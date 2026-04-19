@@ -36,225 +36,230 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://avis-pas-cher.com/"},
-            {"@type": "ListItem", "position": 2, "name": "Avis Google Couvreur", "item": "https://avis-pas-cher.com/avis-google-pas-cher-couvreur.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Avis-Pas-Cher.com",
-        "url": "https://avis-pas-cher.com",
-        "logo": "https://avis-pas-cher.com/acheter-avis-google-pas-cher.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Acheter Avis Google Couvreur",
-                        "url": "https://avis-pas-cher.com/avis-google-pas-cher-couvreur.html"
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Accueil",
+                        "item": "https://avis-pas-cher.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Avis Google Couvreur",
+                        "item": "https://avis-pas-cher.com/avis-google-pas-cher-couvreur.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Les avis mentionnent-ils des travaux de couverture spécifiques ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Bien sûr, nos témoignages font référence à des prestations concrètes de couverture : rénovation totale de toiture, changement de tuiles abîmées, traitement de charpente, installation de gouttières ou colmatage de fuites. Chaque commentaire correspond aux services que vous proposez."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Combien d'avis Google faut-il pour un couvreur ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Un lot de 25 à 50 avis est généralement amplement suffisant pour vous imposer dans votre secteur. Les sociétés de couverture affichent souvent très peu de retours en ligne, ce qui vous permet de prendre l'avantage sans tarder avec un budget raisonnable."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Les avis peuvent-ils rassurer sur le sérieux de mon entreprise de couverture ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Tout à fait. Nos témoignages mettent en lumière des éléments de confiance incontournables dans la couverture : conformité au devis initial, étanchéité impeccable, chantier rendu propre et travaux achevés dans les temps. Ces retours d'expérience dissipent les appréhensions des clients face aux pratiques douteuses du secteur."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Les avis Google aident-ils un couvreur à obtenir plus de chantiers ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Oui, de manière directe. Les propriétaires confrontent systématiquement les notes avant de confier leurs travaux de toiture. Un couvreur affichant 4,8 étoiles avec des dizaines de retours circonstanciés sera sollicité en priorité, en particulier pour les chantiers conséquents où la confiance est primordiale."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Nos Offres Avis Positifs",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@type": "Product",
-                    "name": "25 Avis Positifs + 5 offerts",
-                    "description": "Offre de 25 avis Google positifs avec profils français, textes rédigés sur mesure, garantie à durée illimitée et support client accessible 24h/24.",
-                    "image": "https://avis-pas-cher.com/acheter-avis-google-pas-cher.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "99",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 12,
-                                    "maxValue": 30,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "FR"
+                "@type": "Organization",
+                "name": "Avis-Pas-Cher.com",
+                "url": "https://avis-pas-cher.com",
+                "logo": "https://avis-pas-cher.com/acheter-avis-google-pas-cher.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "acheter avis google couvreur",
+                                "url": "https://avis-pas-cher.com/avis-google-pas-cher-couvreur.html"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "FR",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Les avis mentionnent-ils des travaux de couverture spécifiques ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Bien sûr, nos témoignages font référence à des prestations concrètes de couverture : rénovation totale de toiture, changement de tuiles abîmées, traitement de charpente, installation de gouttières ou colmatage de fuites. Chaque commentaire correspond aux services que vous proposez."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Combien d'avis Google faut-il pour un couvreur ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Un lot de 25 à 50 avis est généralement amplement suffisant pour vous imposer dans votre secteur. Les sociétés de couverture affichent souvent très peu de retours en ligne, ce qui vous permet de prendre l'avantage sans tarder avec un budget raisonnable."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Les avis peuvent-ils rassurer sur le sérieux de mon entreprise de couverture ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Tout à fait. Nos témoignages mettent en lumière des éléments de confiance incontournables dans la couverture : conformité au devis initial, étanchéité impeccable, chantier rendu propre et travaux achevés dans les temps. Ces retours d'expérience dissipent les appréhensions des clients face aux pratiques douteuses du secteur."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Les avis Google aident-ils un couvreur à obtenir plus de chantiers ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Oui, de manière directe. Les propriétaires confrontent systématiquement les notes avant de confier leurs travaux de toiture. Un couvreur affichant 4,8 étoiles avec des dizaines de retours circonstanciés sera sollicité en priorité, en particulier pour les chantiers conséquents où la confiance est primordiale."
                         }
                     }
-                }
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@type": "Product",
-                    "name": "50 Avis Positifs + 10 offerts",
-                    "description": "Offre de 50 avis Google positifs avec profils français, textes rédigés sur mesure, garantie à durée illimitée et support client accessible 24h/24.",
-                    "image": "https://avis-pas-cher.com/acheter-avis-google-pas-cher.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "169",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "ItemList",
+                "name": "Nos Offres Avis Positifs",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Avis Positifs + 5 offerts",
+                            "description": "Offre de 25 avis Google positifs avec profils français, textes rédigés sur mesure, garantie à durée illimitée et support client accessible 24h/24.",
+                            "image": "https://avis-pas-cher.com/acheter-avis-google-pas-cher.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "FR"
+                                    }
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 25,
-                                    "maxValue": 60,
-                                    "unitCode": "DAY"
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "FR",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
                                 }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "FR"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "FR",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Avis Positifs + 10 offerts",
+                            "description": "Offre de 50 avis Google positifs avec profils français, textes rédigés sur mesure, garantie à durée illimitée et support client accessible 24h/24.",
+                            "image": "https://avis-pas-cher.com/acheter-avis-google-pas-cher.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "FR"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "FR",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Avis Positifs + 20 offerts",
+                            "description": "Offre de 100 avis Google positifs avec profils français, textes rédigés sur mesure, garantie à durée illimitée et support client accessible 24h/24.",
+                            "image": "https://avis-pas-cher.com/acheter-avis-google-pas-cher.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "EUR",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "EUR"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "FR"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "FR",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
                         }
                     }
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@type": "Product",
-                    "name": "100 Avis Positifs + 20 offerts",
-                    "description": "Offre de 100 avis Google positifs avec profils français, textes rédigés sur mesure, garantie à durée illimitée et support client accessible 24h/24.",
-                    "image": "https://avis-pas-cher.com/acheter-avis-google-pas-cher.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "239",
-                        "priceCurrency": "EUR",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "EUR"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 50,
-                                    "maxValue": 120,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "FR"
-                            }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "FR",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                        }
-                    }
-                }
+                ]
             }
         ]
     }
